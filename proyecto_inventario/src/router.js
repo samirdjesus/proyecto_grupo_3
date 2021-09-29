@@ -4,6 +4,7 @@ import Home from '@/views/Home';
 import Inventory from '@/views/Inventory';
 import Products from '@/views/Products';
 import Sales from '@/views/Sales';
+import Report from '@/views/Report';
 
 Vue.use(Router);
 
@@ -29,6 +30,11 @@ export default new Router({
             path:'/sales',
             name: 'sales',
             component: Sales
+        },
+        {
+            path:'/report',
+            name: 'report',
+            component: Report
         },
         {
             path: '*',

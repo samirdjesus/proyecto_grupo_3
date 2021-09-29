@@ -155,6 +155,17 @@
                             </a>
                         </li>
                         <li class="full-width divider-menu-h"></li>
+                        <li class="full-width">
+                            <a href="report" class="full-width">
+                                <div class="navLateral-body-cl">
+                                    <i class="zmdi zmdi-assignment"></i>
+                                </div>
+                                <div class="navLateral-body-cr hide-on-tablet">
+                                    INVENTORY REPORT
+                                </div>
+                            </a>
+                        </li>
+                        <li class="full-width divider-menu-h"></li>
                         <!-- <li class="full-width">
                             <a href="#!" class="full-width btn-subMenu">
                                 <div class="navLateral-body-cl">
