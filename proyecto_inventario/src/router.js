@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Error404 from '@/views/Error404'
-import Login from '@/views/Login'
-import RegisterUser from '@/views/RegisterUser'
+import Login from '@/views/auth/Login'
+import RegisterUser from '@/views/auth/RegisterUser'
 import CreateUser from '@/views/CreateUser'
 import Home from '@/views/Home'
 import RegisterClient from '@/views/RegisterClient'
@@ -20,7 +20,7 @@ export default new Router({
             component: Error404
         },
         {
-            path: '',
+            path: '/',
             name: 'Login',
             component: Login
         },

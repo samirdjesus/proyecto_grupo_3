@@ -71,7 +71,7 @@ html, body{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-color: #fff;
-	background-image: url(../assets/img/fontLogin.jpg);
+	background-image: url('../../src/assets/img/fontLogin.jpg');
 }
 .mdl-list__item-avatar{
 	line-height: 40px;
@@ -303,6 +303,21 @@ html, body{
     color: #3F51B5;
     text-decoration: underline;
 }
+
+.container-register-user p{
+    text-align: center;
+}
+
+.container-register-user a{
+    color: #3F51B5;
+    text-decoration: none;
+}
+
+.container-register-user a:hover{
+    color: #3F51B5;
+    text-decoration: underline;
+}
+
 /*=============Estilos barra superior*/
 .navBar{
 	background-color: #3F51B5;
